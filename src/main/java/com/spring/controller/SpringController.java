@@ -30,7 +30,7 @@ public class SpringController {
 	public ModelAndView helloWorld() {
  
 		String message = "<br><div style='text-align:center;'>"
-				+ "<h3>********** Hello World, Spring MVC Tutorial</h3><h2>This message is coming from SpringController.java **********</h2></div><br><br>";
+				+ "<h3>********** Hello World, Spring MVC2 Tutorial</h3><h2>This message is coming from SpringController.java **********</h2></div><br><br>";
 		
 		return new ModelAndView("welcome", "message", message);	
 	}
